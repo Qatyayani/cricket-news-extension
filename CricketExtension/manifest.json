@@ -1,0 +1,16 @@
+{
+    "name": "Cricket News",
+    "version": "0.0.2",
+    "description":"World cricket news at snap of your finger . Just go with It.",
+    "manifest_version": 3,
+    "author":"Ankit Kumar",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Cricket News",
+        "default_icon": "Daco_4076131.png"
+    },
+    "icons": {
+        "128": "Daco_4076131.png"
+    },
+    "permissions": ["activeTab"]
+}

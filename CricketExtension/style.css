@@ -1,0 +1,79 @@
+body {
+  min-width: 350px;
+  height: 100%;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  border-style: double;
+  border-radius: 10px;
+  border-color: rgb(4, 4, 92);
+  padding: 30px;
+  outline-style: solid;
+}
+
+
+
+#head {
+  display: top;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  border-bottom: 4px solid #011d3b;
+  /* Specify the color and line style */
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/* Match name style */
+#matches p:nth-child(1) {
+  font-weight: bold;
+  /* Make it bold */
+  color: #FF5733;
+  /* Change the text color to your preferred color */
+}
+
+/* Match status style */
+#matches p:nth-child(2) {
+  font-style: italic;
+  /* Make it italic */
+  color: #007BFF;
+  /* Change the text color to your preferred color */
+}
+
+/* Style the container */
+.container {
+  display: flex;
+  justify-content: flex-start;
+  /* Align items at the start of the container */
+  align-items: flex-start;
+  /* Align items to the top */
+}
+
+/* Style the left image */
+.left-image {
+  max-width: 130px;
+  /* Set the maximum width of the image */
+  margin-top: 20px;
+  /* Adjust the margin to control vertical position */
+}
+
+/* Style the content on the right */
+.content {
+  margin-left: 20px;
+  /* Add margin for spacing between the image and content */
+}
+
+
+#matches {
+  width: 400px;
+  justify-content: center;
+  list-style-type: none;
+  line-height: 1;
+  margin: auto 10px;
+  font-size: 15px;
+  font-style: italic;
+  color: rgb(32, 2, 2);
+  border-radius: 5px;
+  border: 1px solid rgb(240, 166, 81);
+  padding: 10px;
+
+}
